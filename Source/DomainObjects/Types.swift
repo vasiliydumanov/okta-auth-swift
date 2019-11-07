@@ -221,5 +221,9 @@ public extension OktaRecoveryFactors {
 }
 
 public struct OktaAuthContext {
-    public var deviceToken: String? = nil
+    public let deviceToken: String?
+    
+    public init(deviceToken: String? = nil) {
+        self.deviceToken = deviceToken
+    }
 }
