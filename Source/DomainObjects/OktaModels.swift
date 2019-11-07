@@ -161,6 +161,7 @@ public struct EmbeddedResponse: Codable {
             public let question: String?
             public let questionText: String?
             public let credentialId: String?
+            public let email: String?
         }
 
         public struct Embedded: Codable {
