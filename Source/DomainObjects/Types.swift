@@ -221,5 +221,5 @@ public extension OktaRecoveryFactors {
 }
 
 public struct OktaAuthContext {
-    var deviceToken: String? = nil
+    public var deviceToken: String? = nil
 }
